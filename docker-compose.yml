@@ -7,19 +7,19 @@ services:
       - "81:80"
     deploy:
       replicas: 3
-   train:
+  train:
     image: subbu8docker/train:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
-   dth:
+  dth:
     image: subbu8docker/dth:latest
     ports:
       - "83:80"
     deploy:
       replicas: 3
-   recharge:
+  recharge:
     image: subbu8docker/recharge:latest
     ports:
       - "84:80"
